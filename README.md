@@ -8,6 +8,7 @@ make it available for everyone.
 
 ## Building
 install [maven](https://maven.apache.org/download.cgi)
+
 `mvn clean package` will create a zip distribution
 
 `mvn exec:exec` will run the application. To run a fresh build do `mvn clean compile exec:exec`
